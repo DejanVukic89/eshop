@@ -1,7 +1,7 @@
 
 <?php 
 
-	$this->view(THEME . "/header", $data);
+	$this->view("header", $data);
 
 
 ?>
@@ -763,6 +763,6 @@
 	
 <?php 
 
-	$this->view(THEME . "/footer");
+	$this->view("footer");
 
 ?>

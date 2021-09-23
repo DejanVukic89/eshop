@@ -8,7 +8,7 @@ class Login extends Controller {
         $data = [
             'title' => 'Login'
         ];
-        $this->view(THEME . "login", $data);
+        $this->view("login", $data);
 
 
     }

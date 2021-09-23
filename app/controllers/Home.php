@@ -8,7 +8,7 @@ class Home extends Controller {
         $data = [
             'title' => 'Home page'
         ];
-        $this->view(THEME . "index", $data);
+        $this->view("index", $data);
 
 
     }
